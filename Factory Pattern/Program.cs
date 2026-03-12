@@ -1,10 +1,9 @@
-namespace GadgetHub //Do NOT change the Namespace Name
+namespace GadgetHub
 { 
-    public class Program //Do NOT change the Class Name
+    public class Program
     {
-       public static void Main(string[] args) //Do NOT change the Method Signature
+       public static void Main(string[] args) 
         {
-           // Implement your code here
            Console.WriteLine("Enter the gadget type (mobile/laptop):");
            string type=Console.ReadLine();
            Console.WriteLine("Enter the name of the gadget:");
